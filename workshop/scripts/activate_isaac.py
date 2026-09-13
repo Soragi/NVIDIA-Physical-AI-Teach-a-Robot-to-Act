@@ -54,7 +54,10 @@ WantedBy=multi-user.target
         run(['sudo','install','-m','644',path,'/etc/systemd/system/'+name+'.service'])
     # Stop only the temporary validation services and superseded policy/UI adapters.
     for name in ('physical-ai-gr1-validation','physical-ai-isaac-ui'):
-        subprocess.run(['sudo','systemctl','stop',name],check=False)
+        loaded=subprocess.run(['systemctl','show',name,'--property=LoadState','--value'],
+                              capture_output=True,text=True,check=False)
+        if loaded.stdout.strip()=='loaded':
+            run(['sudo','systemctl','stop',name])
     run(['sudo','systemctl','daemon-reload'])
     run(['sudo','systemctl','enable','--now','physical-ai-gr1','physical-ai-isaac'])
     run(['sudo','systemctl','restart','physical-ai-gr1','physical-ai-isaac'])
