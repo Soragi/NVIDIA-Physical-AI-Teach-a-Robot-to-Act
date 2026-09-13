@@ -32,6 +32,15 @@ class StartHereTests(unittest.TestCase):
         self.assertNotIn('rmtree', code)
         self.assertNotIn('docker system prune', code)
 
+    def test_setup_bootstraps_pip_for_minimal_brev_kernels(self):
+        notebook = json.loads((ROOT/'00_START_HERE_ROBOTICS_VSS.ipynb').read_text())
+        code = '\n'.join(''.join(c['source']) for c in notebook['cells'] if c['cell_type']=='code')
+        check = "[sys.executable, '-m', 'pip', '--version']"
+        bootstrap = "run(sys.executable, '-m', 'ensurepip', '--upgrade')"
+        install = "run(sys.executable, '-m', 'pip', 'install', '--disable-pip-version-check', 'uv==0.12.13')"
+        self.assertLess(code.index(check), code.index(bootstrap))
+        self.assertLess(code.index(bootstrap), code.index(install))
+
     def test_activation_preserves_full_notebook(self):
         from workshop.scripts import activate_training_lab as activation
         with tempfile.TemporaryDirectory() as tmp:
