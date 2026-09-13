@@ -28,7 +28,8 @@ def main():
         try:probe.bind(('127.0.0.1',15557))
         except OSError as error:raise RuntimeError('Evaluation policy port is occupied; no checkpoint substituted.') from error
     args.output.mkdir(parents=True,exist_ok=True)
-    env=dict(os.environ,CUDA_VISIBLE_DEVICES='0',WANDB_MODE='disabled',TOKENIZERS_PARALLELISM='false')
+    env=dict(os.environ,CUDA_VISIBLE_DEVICES='0',WANDB_MODE='disabled',
+        TOKENIZERS_PARALLELISM='false',MPLBACKEND='Agg')
     token=Path.home()/'.local/state/vss-robotics-workshop/hf.token'
     if token.exists(): env['HF_TOKEN']=token.read_text().strip()
     with (args.output/'policy.log').open('w') as log:

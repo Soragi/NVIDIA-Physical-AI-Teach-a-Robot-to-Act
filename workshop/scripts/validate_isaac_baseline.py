@@ -29,7 +29,10 @@ def main():
                     if policy.poll() is not None or time.monotonic()>deadline:
                         raise RuntimeError('Policy did not become ready; inspect the private baseline policy log.')
                     time.sleep(1)
-            env=dict(os.environ,OMNI_KIT_ACCEPT_EULA='YES',ACCEPT_EULA='Y',CUDA_VISIBLE_DEVICES='1')
+            # Jupyter exports its inline Matplotlib backend to child processes.
+            # That backend is intentionally absent from the isolated Isaac env.
+            env=dict(os.environ,OMNI_KIT_ACCEPT_EULA='YES',ACCEPT_EULA='Y',
+                CUDA_VISIBLE_DEVICES='1',MPLBACKEND='Agg')
             subprocess.run([str(ARENA/'.venv/bin/python'),'isaaclab_arena/evaluation/policy_runner.py',
                 '--policy_type','isaaclab_arena_gr00t.policy.gr00t_remote_closedloop_policy.Gr00tRemoteClosedloopPolicy',
                 '--policy_config_yaml_path','isaaclab_arena_gr00t/policy/config/gr1_manip_ranch_bottle_gr00t_closedloop_config.yaml',

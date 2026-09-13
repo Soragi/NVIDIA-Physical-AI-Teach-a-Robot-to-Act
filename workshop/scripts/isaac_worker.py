@@ -10,7 +10,8 @@ ROOT = Path(__file__).resolve().parents[2]
 ARENA = ROOT/'third_party/IsaacLab-Arena'
 sys.path[:0] = [str(ROOT),str(ARENA)]
 os.chdir(ARENA)
-os.environ.update(OMNI_KIT_ACCEPT_EULA='YES',ACCEPT_EULA='Y',CUDA_VISIBLE_DEVICES='1')
+os.environ.update(OMNI_KIT_ACCEPT_EULA='YES',ACCEPT_EULA='Y',
+    CUDA_VISIBLE_DEVICES='1',MPLBACKEND='Agg')
 from workshop.lab.isaac_contract import atomic_json, digest, ACTIONS
 
 

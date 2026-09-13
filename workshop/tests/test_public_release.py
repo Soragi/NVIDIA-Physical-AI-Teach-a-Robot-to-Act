@@ -34,6 +34,11 @@ class PublicReleaseTests(unittest.TestCase):
         nginx = (ROOT / "workshop/runtime/services/ui/workshop/nginx.conf").read_text()
         self.assertIn("listen 127.0.0.1:3100", nginx)
 
+    def test_isaac_processes_do_not_inherit_jupyter_inline_backend(self):
+        for name in ("validate_isaac_baseline.py", "isaac_worker.py", "evaluate_training.py"):
+            source = (ROOT / "workshop/scripts" / name).read_text()
+            self.assertIn("MPLBACKEND='Agg'", source, name)
+
 
 if __name__ == "__main__":
     unittest.main()
