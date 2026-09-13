@@ -47,3 +47,9 @@ See [TRAINING_LAB.md](TRAINING_LAB.md) for teaching guidance, [ISAAC_DEPLOYMENT.
 ## Scope
 
 The repository contains no model weights, demonstrations, generated videos, credentials or participant reports. Those remain outside Git. The workshop sends no physical robot commands and does not establish production readiness or production licensing. Review the GR00T model, dataset, Isaac/Arena assets and container terms separately.
+
+### Setup reruns and UI access
+
+On a fresh VM, run Setup A–I once before starting the learning exercise. Setup G checks both the port-7777 UI and its proxied mission API. Create a Brev Secure Link targeting port 7777 on this instance. The gateway listens on the VM network so Brev can connect; all backend ports remain on loopback. A 503 connection-refused error from Brev means the gateway address/port or service must be checked.
+
+For an already prepared VM, set `RUN_SETUP=False`. To rerun deployment, wait for any active operation to finish. Setup releases an idle GPU reservation while preserving its recorded experiment. Saved private credentials and complete cached inputs are reused. Notebook API errors explain conflicts; do not repeat completed training in the same experiment.

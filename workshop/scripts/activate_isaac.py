@@ -5,6 +5,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import sys
+import time
 import urllib.request
 
 ROOT=Path(__file__).resolve().parents[2]
@@ -58,6 +59,19 @@ WantedBy=multi-user.target
     run(['sudo','systemctl','enable','--now','physical-ai-gr1','physical-ai-isaac'])
     run(['sudo','systemctl','restart','physical-ai-gr1','physical-ai-isaac'])
     run(['bash',ROOT/'workshop/scripts/deploy_vss_base.sh','refresh-ui'])
+    deadline=time.monotonic()+120
+    while True:
+        try:
+            for url in ('http://127.0.0.1:7777/',
+                        'http://127.0.0.1:7777/mission-api/training/state'):
+                with urllib.request.urlopen(url,timeout=5) as response:
+                    if response.status!=200:raise OSError('Gateway not ready')
+            break
+        except OSError:
+            if time.monotonic()>deadline:
+                raise SystemExit('Port 7777 gateway/API is not ready. Inspect physical-ai-isaac and vss-workshop-ui logs.')
+            time.sleep(2)
+    print('Port 7777 UI and proxied training API are responding. Open this instance\'s Brev Secure Link; complete Setup H–I before running a mission.')
     print('Isaac profile activated. Verify a live browser and notebook mission before cloning.')
 
 

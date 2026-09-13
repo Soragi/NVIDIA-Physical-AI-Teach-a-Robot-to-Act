@@ -39,11 +39,19 @@ class TrainingMission:
         return request(self.url+'/mission-api/training/state')
 
     def _post(self,route,payload):
-        import urllib.request
+        import urllib.request, urllib.error
         token=self.status()['csrf']
         req=urllib.request.Request(self.url+'/mission-api/'+route,json.dumps(payload).encode(),
             headers={'Content-Type':'application/json','X-Mission-Token':token},method='POST')
-        with urllib.request.urlopen(req,timeout=30) as response:return json.load(response)
+        try:
+            with urllib.request.urlopen(req,timeout=30) as response:return json.load(response)
+        except urllib.error.HTTPError as error:
+            # This local API returns controlled validation messages, not model prompts.
+            if error.code in (403,409):
+                try: message=json.load(error).get('error','Request rejected.')
+                except (ValueError,AttributeError): message='Request rejected.'
+                raise RuntimeError(message) from None
+            raise RuntimeError(f'Mission API HTTP {error.code}; inspect service health.') from None
 
     def create(self,seed=None):return self._post('training/create',{'seed':seed})
     def before(self):return self._post('training/before',{})

@@ -196,6 +196,14 @@ check_storage() {
   docker_free="$(free_gib "$docker_root")"
   ephemeral_mount="$(find_ephemeral_mount || true)"
 
+  if (( docker_free >= 80 )) && docker image inspect \
+      nvcr.io/nim/nvidia/cosmos3-reasoner:1.7 \
+      nvcr.io/nim/nvidia/nvidia-nemotron-nano-9b-v2:1 \
+      nvcr.io/nvidia/vss-core/vss-agent:3.2.1 >/dev/null 2>&1; then
+    note "Storage check passed: cached VSS images with ${docker_free} GiB working headroom."
+    return 0
+  fi
+
   if (( docker_free < MIN_DOCKER_FREE_GIB )) && [[ -z "$ephemeral_mount" ]]; then
     die "Docker has ${docker_free} GiB free and no mounted ephemeral disk with ${MIN_DOCKER_FREE_GIB} GiB free was found. Attach or mount storage before deploying."
   fi

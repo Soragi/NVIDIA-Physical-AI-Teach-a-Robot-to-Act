@@ -29,7 +29,7 @@ class PublicReleaseTests(unittest.TestCase):
     def test_known_management_ports_default_to_loopback(self):
         env = (ROOT / "workshop/runtime/developer-profiles/dev-profile-base/.env").read_text()
         self.assertIn("HOST_IP=127.0.0.1", env)
-        self.assertIn("HAPROXY_BIND_ADDR=127.0.0.1", env)
+        self.assertIn("HAPROXY_BIND_ADDR=0.0.0.0", env)  # Brev-facing gateway only
         redis = (ROOT / "workshop/runtime/services/infra/redis/configs/redis.conf").read_text()
         self.assertIn("bind 127.0.0.1 ::1", redis)
         self.assertIn("protected-mode yes", redis)
