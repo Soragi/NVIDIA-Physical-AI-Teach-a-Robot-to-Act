@@ -1,0 +1,15 @@
+Third-Party Software Notices
+============================
+
+The workshop pulls container images and model, dataset, simulator and robot
+assets during deployment. Those artifacts are not redistributed in this Git
+repository and remain subject to their own license terms.
+
+The container-image licenses and attributions for the included VSS deployment
+profile are listed in:
+
+    workshop/runtime/LICENSE-3rd-party-deploy.txt
+
+Before publishing a derivative or using the workshop outside evaluation,
+review the terms shown by NVIDIA NGC, Hugging Face and the upstream projects at
+download time. Model access does not grant production-use rights.

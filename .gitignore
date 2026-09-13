@@ -1,0 +1,36 @@
+.claude
+.DS_Store
+**/.DS_Store
+.env
+.env.*
+!workshop/runtime/developer-profiles/dev-profile-base/.env
+!workshop/runtime/services/nim/fallback-override.env
+!workshop/runtime/services/nim/**/hw-*.env
+!workshop/runtime/services/vios/vst.env
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.log
+*checkpoint.*
+.orchestrator-artifacts/
+
+# Deployment credentials are created outside the repository in the user's
+# local state directory. Ignore any accidental local copies as a safeguard.
+**/generated.env
+workshop/runtime/resolved.yml
+workshop/runtime/rag-secret.override.yml
+
+workshop/results/
+*.key
+*.tgz
+third_party/
+*.token
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.json
+known_hosts
+._*

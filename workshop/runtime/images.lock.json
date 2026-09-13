@@ -1,0 +1,68 @@
+{
+  "centralizedb": {
+    "image": "postgres:17.9-alpine",
+    "repo_digests": [
+      "postgres@sha256:c7526c0f6c3f30260a563d7bcf8ad778effac59a44f8ffa86678c35418338609"
+    ]
+  },
+  "cosmos3-reasoner": {
+    "image": "nvcr.io/nim/nvidia/cosmos3-reasoner:1.7",
+    "repo_digests": [
+      "nvcr.io/nim/nvidia/cosmos3-reasoner@sha256:19add3edaaa77c4030c75eb27d30939c29ca93807bb7af10a1876f05d520026c"
+    ]
+  },
+  "nvidia-nemotron-nano-9b-v2": {
+    "image": "nvcr.io/nim/nvidia/nvidia-nemotron-nano-9b-v2:1",
+    "repo_digests": [
+      "nvcr.io/nim/nvidia/nvidia-nemotron-nano-9b-v2@sha256:a2f4a5aefe7dd0ff29bfd8d7081ce4977337d1b12081361af7b6283ff9a406b2"
+    ]
+  },
+  "phoenix": {
+    "image": "arizephoenix/phoenix:14.15.0",
+    "repo_digests": [
+      "arizephoenix/phoenix@sha256:4902edc412785dcd90ad20172c3b15def87d076a18cfc3c3df44df211993f0f0"
+    ]
+  },
+  "redis": {
+    "image": "redis:8.6.2-alpine",
+    "repo_digests": [
+      "redis@sha256:c5e375abb885e6b2021c0377879e4890bf76f9065b8922ffc113f2b226b9fc17"
+    ]
+  },
+  "sensor-ms": {
+    "image": "nvcr.io/nvidia/vss-core/vss-vios-sensor:3.2.1",
+    "repo_digests": [
+      "nvcr.io/nvidia/vss-core/vss-vios-sensor@sha256:6dd443f43acd52b00c449238907f38a936d8e3f5d7fb77765d4ece82b3c24cc7"
+    ]
+  },
+  "streamprocessing-ms": {
+    "image": "nvcr.io/nvidia/vss-core/vss-vios-streamprocessing:3.2.1",
+    "repo_digests": [
+      "nvcr.io/nvidia/vss-core/vss-vios-streamprocessing@sha256:c59f53396e8390734b6fc3559ffec6929d153499a6ec1410bf477402de983cff"
+    ]
+  },
+  "vss-agent": {
+    "image": "nvcr.io/nvidia/vss-core/vss-agent:3.2.1",
+    "repo_digests": [
+      "nvcr.io/nvidia/vss-core/vss-agent@sha256:b7f3246aaf355ebf96e91a40b2f0abc5dea7e330e7bf9a7cf726107b560c3ac1"
+    ]
+  },
+  "vss-haproxy-ingress": {
+    "image": "haproxy:3.0-alpine",
+    "repo_digests": [
+      "haproxy@sha256:34cc7d1f6142464d7d2b73e2a1eef7392556dbf304160aef543e513cfd9e5162"
+    ]
+  },
+  "vss-ui": {
+    "image": "nginx:1.27-alpine",
+    "repo_digests": [
+      "nginx@sha256:65645c7bb6a0661892a8b03b89d0743208a18dd2f3f17a54ef4b76fb8e2f2a10"
+    ]
+  },
+  "vst-ingress": {
+    "image": "nvcr.io/nvidia/vss-core/vss-vios-ingress:3.2.1",
+    "repo_digests": [
+      "nvcr.io/nvidia/vss-core/vss-vios-ingress@sha256:ecee4b30ab5e76fa5d342ba4c7ade5b3f176dbb2543ccad03d07759fea2a5e47"
+    ]
+  }
+}

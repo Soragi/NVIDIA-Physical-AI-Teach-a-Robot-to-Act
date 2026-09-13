@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "name": "GR1 learn to place and close",
+  "validation_status": "validated",
+  "validation_report": "VALIDATION.md",
+  "recorded_before_successes": 0,
+  "recorded_after_successes": 8,
+  "recorded_seed_count": 10,
+  "before_checkpoint": "workshop/results/training/pilot-200/checkpoint-200",
+  "before_optimizer_steps": 200,
+  "default_steps": 2000,
+  "training_batch_size": 16,
+  "training_demonstrations": 100,
+  "dataset_revision": "2b8461bf9f45e2c9087902c6eaa823083a2e849b",
+  "foundation_revision": "d0814e7ecb19202e7c8468b46098b0b7ef3a6d61",
+  "policy_code_revision": "e29d8fc50b0e4745120ae3fb72447986fe638aa6",
+  "evaluation_control_steps": 500,
+  "evaluation_action_chunk": 16,
+  "guaranteed_success": false,
+  "training_method": "Supervised continuation from an early task checkpoint; optimizer starts fresh."
+}

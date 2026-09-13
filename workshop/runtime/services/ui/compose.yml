@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES.
+# SPDX-License-Identifier: Apache-2.0
+
+# A small, workshop-specific interface layered over the VSS Agent and VIOS
+# APIs. It intentionally replaces the generic prebuilt VSS UI image so the
+# attendee flow stays focused on upload -> select -> ask -> report.
+services:
+  vss-ui:
+    image: nginx:1.27-alpine
+    container_name: vss-workshop-ui
+    network_mode: host
+    profiles: ["bp_developer_base_2d"]
+    restart: unless-stopped
+    depends_on:
+      vss-agent:
+        condition: service_healthy
+    volumes:
+      - ${VSS_APPS_DIR}/services/ui/workshop/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ${VSS_APPS_DIR}/services/ui/workshop:/usr/share/nginx/html:ro

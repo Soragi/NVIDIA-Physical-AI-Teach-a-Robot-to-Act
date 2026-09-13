@@ -1,0 +1,514 @@
+{
+  "files": {
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/GR1T2_fourier_hand_6dof.usd": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/GR1T2_fourier_hand_6dof.usd",
+      "sha256": "e413c8bdca309105aef8c6ed5ba095186fe385720f7d12c58ce18dd14db95d46"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/configuration/GR1T2_fourier_hand_6dof_base.usd": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/configuration/GR1T2_fourier_hand_6dof_base.usd",
+      "sha256": "a05b0d770fc774de5642c00e6f179d1eec2b05e02889cc7a93aed3970b4be6ac"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/configuration/GR1T2_fourier_hand_6dof_physics.usd": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/configuration/GR1T2_fourier_hand_6dof_physics.usd",
+      "sha256": "909894aed6425af17e1012c783d985c41cdda90bcd46623d8e3b21b17a50aebd"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/configuration/GR1T2_fourier_hand_6dof_robot_schema.usd": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/configuration/GR1T2_fourier_hand_6dof_robot_schema.usd",
+      "sha256": "b3656062a4785fb3175d4b8e1a7e83fda341817be584ef6bcfc500a14889159a"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/configuration/GR1T2_fourier_hand_6dof_sensor.usd": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/configuration/GR1T2_fourier_hand_6dof_sensor.usd",
+      "sha256": "5ab1b73b3c7653d8ffb994107fa4bc19a64d1e6a02433d751c9299e925ec2e1b"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1001.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1001.png",
+      "sha256": "594603aedad89d471e707c9376b05483ce34f9506a61b642fb35e4c01c2393f5"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1002.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1002.png",
+      "sha256": "d2fa56d78bd2a1cdc922fe1a2da1802bf41066debdca51ea40c571b2b160bb1d"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1003.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1003.png",
+      "sha256": "f982c5cefe007853e3cd7cc00cca0b97d0970116fff9c965eb849fc30d14ffdd"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1004.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1004.png",
+      "sha256": "a7d686835e928db4e6184d6913e521690a3688de83f0525c3155b3a655218433"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1005.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1005.png",
+      "sha256": "38a69c17a78b3e18937757a382ebe77b9dcb3b666b20ad9208ea9d10514209b6"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1006.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1006.png",
+      "sha256": "d0a49e2bd3ca6c7e467e420f4718267a3b3d30ddc46644b9cebbecef4f2d4c1b"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1007.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1007.png",
+      "sha256": "a83ed0cdc8a2f773ea8136477ce32d4dd010357b97a94c40a56e4d446ff41307"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1008.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1008.png",
+      "sha256": "6e3faa80ff3c472ae9b5796b3b491f3ff8ee9dfa427f30bbd5592f65d992d6ea"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1009.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_albedo.1009.png",
+      "sha256": "fa4cb51c79309290793e985758bb08b0c415ac641d309a0860c88fe3f963a24e"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1001.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1001.png",
+      "sha256": "e46db5d4f891ab09aeed18a27386f873cf98321ee0667a460b4c91886599f382"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1002.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1002.png",
+      "sha256": "12eab5e43799c2cc18e19ce9ced1a650854a5588606e1ea5f0acbcf8412ec8fc"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1003.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1003.png",
+      "sha256": "d6b7fccd0d35d88b025141751301426aaa4e335686a8b35c478ad36feeabbfda"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1004.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1004.png",
+      "sha256": "1fd5a8f9bdc937e315cfde3dc09c0858efacf6108f64781d7d7ab75cc65f748c"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1005.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1005.png",
+      "sha256": "9abd4f6d71240e75379706e65e41363bdc3ac584830adc7963e4a6eb43f880e3"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1006.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1006.png",
+      "sha256": "6fe0a6d85e458fa7e84e21d4fa4141d61e131a595a79cb5eff1cb360804b054a"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1007.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1007.png",
+      "sha256": "5e85a427de1a7d1874ba68c0128f5d014ef4fe3b1ba64306fdbf01ff371c9ae9"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1008.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1008.png",
+      "sha256": "a97296c0093e6b281eb956d51ef24ee29cf8b6f4fc9a5925f70f8fd59108b927"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1009.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_metallic.1009.png",
+      "sha256": "61f7cc4fd6e2e4bed16b16c92bc42cbf522ba3bd258c60f50f595cf790761ebc"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1001.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1001.png",
+      "sha256": "f9ef1b04af7571e38e5363f079d3a471354b32361bd8e83dbc4f812cb147bdf7"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1002.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1002.png",
+      "sha256": "f9ef1b04af7571e38e5363f079d3a471354b32361bd8e83dbc4f812cb147bdf7"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1003.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1003.png",
+      "sha256": "8e769bf926e7f0a2c4696c12eb74553586e77ef70612f42146df73ca07b830b1"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1004.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1004.png",
+      "sha256": "f9ef1b04af7571e38e5363f079d3a471354b32361bd8e83dbc4f812cb147bdf7"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1005.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1005.png",
+      "sha256": "f9ef1b04af7571e38e5363f079d3a471354b32361bd8e83dbc4f812cb147bdf7"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1006.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1006.png",
+      "sha256": "f9ef1b04af7571e38e5363f079d3a471354b32361bd8e83dbc4f812cb147bdf7"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1007.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1007.png",
+      "sha256": "f9ef1b04af7571e38e5363f079d3a471354b32361bd8e83dbc4f812cb147bdf7"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1008.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1008.png",
+      "sha256": "e938e8b9b59e2ae9db5f8734819edf69108f65c7f28546d6da092ae6374ac370"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1009.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_normalDirectX.1009.png",
+      "sha256": "e4e4977d402bb4e4b99447866711e45b3268bb0ce7f604693629ac7ccdc66402"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1001.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1001.png",
+      "sha256": "52be7e234910c1e99379fc8ebb1450559fbdf323f072794055afc1e29ed88d0d"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1002.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1002.png",
+      "sha256": "0f196014600541e77e1fec3119c824de59b6cab474f81c2e98d0ce45f9b71e1e"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1003.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1003.png",
+      "sha256": "4ef354403f25aab829b20ec25dc178ed5d0776bd1e24a1de3d0b8dc3f4c7fb94"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1004.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1004.png",
+      "sha256": "fc7d8d8d8218432ec831de3cbd3dfbda39bf8c5b7be208386bef3d1b72252a38"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1005.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1005.png",
+      "sha256": "8e9375dc54bdbcd42e97d3304a1c4010e3cb3561fc15ade3fce899d6d46f10dc"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1006.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1006.png",
+      "sha256": "5b0fe7c38463d687aec45c7072a5ad73c3a9e99f0c38692377863f4d62de4944"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1007.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1007.png",
+      "sha256": "32d7c30d9e4de3c32dea0f3b199059ecce36e0102727385a1092a2fc4c4d6e44"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1008.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1008.png",
+      "sha256": "12e05b5a26079908e3b960533cfdd36afafbad84e99e01cea7d4241d8f5ff322"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1009.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/renderXLowTextures/GR1T2FourierIntelligence_GR1T2_roughness.1009.png",
+      "sha256": "00298433cf30256e911f692d285872551918dd1c76418ea0f99a9afb2abda33a"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1001.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1001.png",
+      "sha256": "0412dabc303a26b892a15aa1275bf7575ef4529aa94d2faeef806668a398be9d"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1002.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1002.png",
+      "sha256": "b598160ffed7a1337881e0d4dcd917710d8a9b4f23cdc896e41ce54045bf64c7"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1003.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1003.png",
+      "sha256": "837be20fc700c1df5519801d617c178f4bf96f4073cf7fa5e198fa2b17844079"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1004.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1004.png",
+      "sha256": "bc83236959fc9bf837871e2c1199cef80ab396d853a9aacbd667c6974ab15abe"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1005.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1005.png",
+      "sha256": "af265474b77c65e4bf84ad38b49e80d16e8226551af98446abf8a9e782c6f727"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1006.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1006.png",
+      "sha256": "167bb8db328eb0f1896d2e1be3118b4d26e84ae6efafcff554c7310425b33878"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1007.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1007.png",
+      "sha256": "b3161a1ad1e2b5c0ece784d4b7dc3d123e485820c6b3e3f8c84697a9c18cd718"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1008.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1008.png",
+      "sha256": "0e23fa40a2c08d72178a41c47d1a83b88dab4648102aea2f26247bd5555c1f45"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1009.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_albedo.1009.png",
+      "sha256": "ea55ba906226b5ed5a86dc247f36ba56657c8ac6649a1aaa0a16cdaf3d263645"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1001.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1001.png",
+      "sha256": "55b1d834e8bb6adf7dc0181db057f5bb32d6594fb7f0c5dd2c2daf2d8eab5f04"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1002.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1002.png",
+      "sha256": "9887156f78f58bdae264f35ac7cd323bed1650b530edf48633f29c40c0c21ec6"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1003.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1003.png",
+      "sha256": "90082ea4dd1e9b6efde9c131fca8aed0fbd7b32f1a4eb1a49d89a548ec0c740c"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1004.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1004.png",
+      "sha256": "787dc6243bc21e62b69fc17779da8cd7b86b996ce49dbeda8cc11252802d2546"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1005.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1005.png",
+      "sha256": "ed09e6561e30606b35285060b6088e4c98ab23bd1afd426f0222dd5056634837"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1006.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1006.png",
+      "sha256": "4d16c2499db716b16ae0bafcae7adf405fe6312cf125b56de09796e715e3e181"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1007.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1007.png",
+      "sha256": "bfbb40150e6bd999ca43d69d508c4d2bd2f73c232201112cc57f2d1c689a8974"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1008.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1008.png",
+      "sha256": "c30cb5e8033dcc1999396f3f4c7a88c2be1401befcfd5b26dbfd992bc897cffb"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1009.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_metallic.1009.png",
+      "sha256": "f5ff09b0e5b8989f7e4933e6a2b2c6ab859b5484628daf3a5252716efc529787"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1001.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1001.png",
+      "sha256": "eb6bceca8ea9b59c2a9af7f2b3372eb8304fea81022be30e9b173922c7bf0894"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1002.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1002.png",
+      "sha256": "eb6bceca8ea9b59c2a9af7f2b3372eb8304fea81022be30e9b173922c7bf0894"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1003.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1003.png",
+      "sha256": "c40c4cb97af8c9a61156e6c7c2242ddaecda5c279ed0bcc73857f91e7f5cdf82"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1004.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1004.png",
+      "sha256": "eb6bceca8ea9b59c2a9af7f2b3372eb8304fea81022be30e9b173922c7bf0894"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1005.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1005.png",
+      "sha256": "eb6bceca8ea9b59c2a9af7f2b3372eb8304fea81022be30e9b173922c7bf0894"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1006.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1006.png",
+      "sha256": "eb6bceca8ea9b59c2a9af7f2b3372eb8304fea81022be30e9b173922c7bf0894"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1007.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1007.png",
+      "sha256": "eb6bceca8ea9b59c2a9af7f2b3372eb8304fea81022be30e9b173922c7bf0894"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1008.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1008.png",
+      "sha256": "33b49aeea94c35edae22db399dd4da2274f1d9aadaaed82e828f5cd6ae7b15a6"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1009.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_normalDirectX.1009.png",
+      "sha256": "032e52cbc0dfc090e0f0ec36bead47659b1deba532fb64ae33117b3f7cafe1c8"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1001.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1001.png",
+      "sha256": "0f18b06220afbb0bcc3021e88da6e2b642a04e3bf0d684df1fe5362c81e04448"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1002.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1002.png",
+      "sha256": "e1611191bcc21d763aa64d793b60ddae2171d46ccd00f5a9cae4c8989595d96b"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1003.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1003.png",
+      "sha256": "0e3f1c141be720972ad805c69a82177257f4f156a79dfb62038685750df32225"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1004.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1004.png",
+      "sha256": "4e327efacf94de3983dc41ec869b89097497c478631d4606c498a38caad7d5ca"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1005.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1005.png",
+      "sha256": "48fa3935588e6885e4197003eda85b9e6bbc6b873aa16a819884baededc4a53b"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1006.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1006.png",
+      "sha256": "c9a63e1394b0d22767654f385429c34abe73dd5b5de184543477422611d89398"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1007.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1007.png",
+      "sha256": "72a4f4004e31c884ea925d45f92e564fb99c41f0d9fa0e7fba17a0bfd41b1a6e"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1008.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1008.png",
+      "sha256": "d76cfe98be196d91ef552a042dcbb5f2dc5231e0a1ce656aed877fc17880c667"
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1009.png": {
+      "file": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/textures/texture/GR1T2FourierIntelligence_GR1T2_roughness.1009.png",
+      "sha256": "8cc467ac9391cb2015254e5ab6a96e1115b78a256ed8de3d8eee1d47dd99a124"
+    },
+    "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/IsaacLab/Arena/assets/object_library/srl_robolab_assets/objects/hope/ranch_dressing.usd": {
+      "file": "omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/IsaacLab/Arena/assets/object_library/srl_robolab_assets/objects/hope/ranch_dressing.usd",
+      "sha256": "09b8b5f322fa704454b6e722d259ab778faef132d1c7a12e68a1d27460a37ed1"
+    },
+    "https://omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/IsaacLab/Arena/assets/object_library/srl_robolab_assets/objects/hope/textures/obj_000024.png": {
+      "file": "omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/IsaacLab/Arena/assets/object_library/srl_robolab_assets/objects/hope/textures/obj_000024.png",
+      "sha256": "17ac6d99eebf065eaa2243ebc578da65e7d5f112bbff75f083e451578efaae22"
+    },
+    "kitchen/scene.usd": {
+      "file": "kitchen/scene.usd",
+      "sha256": "11fb096b4d86e136d51aa511f06d56d626ac7b5afee9135aabebb114f58142a6"
+    },
+    "kitchen/textures/T_Blender002_BC001_0.png": {
+      "file": "kitchen/textures/T_Blender002_BC001_0.png",
+      "sha256": "4ad0be9039f54815433bf2a346a2ad0e3254d13ef6b73b57dcef8db4e2e1cf62"
+    },
+    "kitchen/textures/T_Blender002_N001_0.png": {
+      "file": "kitchen/textures/T_Blender002_N001_0.png",
+      "sha256": "fe7d530dcef44fc4e06f6d6d78bcff2da66f629c86a047ac1947dcbeb9c3067d"
+    },
+    "kitchen/textures/T_Blender002_ORM001_0.png": {
+      "file": "kitchen/textures/T_Blender002_ORM001_0.png",
+      "sha256": "dbbaa02ae97b973f24497e7e8bd560a0c3904c4e3a2038fc8172c1dad16380e4"
+    },
+    "kitchen/textures/T_CabinetHandle002_BC001_0.png": {
+      "file": "kitchen/textures/T_CabinetHandle002_BC001_0.png",
+      "sha256": "f8d0e84a9ca900da23aa8197817b649b52e37fdfd2af2d4c2f1d421eec4f08b5"
+    },
+    "kitchen/textures/T_CabinetHandle002_ORM001_0.png": {
+      "file": "kitchen/textures/T_CabinetHandle002_ORM001_0.png",
+      "sha256": "4b25d41170a222a3d9222c815e0fbed7c0e98ff8150bc14dc99c3e563e6f657b"
+    },
+    "kitchen/textures/T_CoffeeMachine037_BC001_0.png": {
+      "file": "kitchen/textures/T_CoffeeMachine037_BC001_0.png",
+      "sha256": "abfbfc0881ea3671b9127f06f6fe43ca17442fe9a8ff01570fc524dfced4d1f3"
+    },
+    "kitchen/textures/T_CoffeeMachine037_ORM001_0.png": {
+      "file": "kitchen/textures/T_CoffeeMachine037_ORM001_0.png",
+      "sha256": "0311034e1246f9855fd5d3344f3ddc9178cd5eedfc6f6c5b9ecdbf7126052b74"
+    },
+    "kitchen/textures/T_DishRack027_BC001_0.png": {
+      "file": "kitchen/textures/T_DishRack027_BC001_0.png",
+      "sha256": "4204939aab03008c632a7b95e5774f5bb975cc2a8b7824f90408f25fb3f0b0b1"
+    },
+    "kitchen/textures/T_Dishwasher049_BC001_0.png": {
+      "file": "kitchen/textures/T_Dishwasher049_BC001_0.png",
+      "sha256": "3a214349c949097cc782235b1e89b8f56180bfcdb8ef4624d6b406c0d216bb48"
+    },
+    "kitchen/textures/T_Dishwasher049_N001_0.png": {
+      "file": "kitchen/textures/T_Dishwasher049_N001_0.png",
+      "sha256": "fe7d530dcef44fc4e06f6d6d78bcff2da66f629c86a047ac1947dcbeb9c3067d"
+    },
+    "kitchen/textures/T_Dishwasher049_ORM001_0.png": {
+      "file": "kitchen/textures/T_Dishwasher049_ORM001_0.png",
+      "sha256": "cbb96544879f7ea115ea988a5eea42d5ac07ed98e5c54f5bc39c0e7619db735d"
+    },
+    "kitchen/textures/T_ElectricKettle003_BC001_0.png": {
+      "file": "kitchen/textures/T_ElectricKettle003_BC001_0.png",
+      "sha256": "e0786f29caf605309d4072a490ad735cd0bfabd5d2e469ca5a5455f57b384a3c"
+    },
+    "kitchen/textures/T_ElectricKettle003_ORM001_0.png": {
+      "file": "kitchen/textures/T_ElectricKettle003_ORM001_0.png",
+      "sha256": "ec024002d7d1235b94cb762776d69d24f1dfb61d3179518543e2af50abcd1353"
+    },
+    "kitchen/textures/T_KnifeBlock002_BC001_0.png": {
+      "file": "kitchen/textures/T_KnifeBlock002_BC001_0.png",
+      "sha256": "eccff4c028c06f600ec21af832c51fb4c8ffcff5caa8a4ff8e02e052de385755"
+    },
+    "kitchen/textures/T_KnifeBlock002_ORM001_0.png": {
+      "file": "kitchen/textures/T_KnifeBlock002_ORM001_0.png",
+      "sha256": "a99520b18f0e2c4282b00e8356ac70f189a174201a2290584d332fe05f769505"
+    },
+    "kitchen/textures/T_Microwave031_BC001_0.png": {
+      "file": "kitchen/textures/T_Microwave031_BC001_0.png",
+      "sha256": "3838498e15c5c810151cc83c1e9afa8ac48c7fafc2a3082f230c0b8673915319"
+    },
+    "kitchen/textures/T_Microwave031_ORM001_0.png": {
+      "file": "kitchen/textures/T_Microwave031_ORM001_0.png",
+      "sha256": "93c6ae6b59756d00baf41033fc5c1ac54c5ad327f943957cf812b5cccd8f1d64"
+    },
+    "kitchen/textures/T_PaperTowelHolder002_BC001_0.png": {
+      "file": "kitchen/textures/T_PaperTowelHolder002_BC001_0.png",
+      "sha256": "489078e7afee5f6fd5b1fa4234810660172b0da08745ce48c9ff3932a7791ac8"
+    },
+    "kitchen/textures/T_PaperTowelHolder002_N001_0.png": {
+      "file": "kitchen/textures/T_PaperTowelHolder002_N001_0.png",
+      "sha256": "4b983ed2c36cb4e5b347c745f9070306e23d38d989fa9d880e0e1c2f9dd74ae9"
+    },
+    "kitchen/textures/T_PaperTowelHolder002_ORM001_0.png": {
+      "file": "kitchen/textures/T_PaperTowelHolder002_ORM001_0.png",
+      "sha256": "e5c09ea1bffe5f602dbf4efb4b2ac3f129eab298fd979df9c46f1aa12b362150"
+    },
+    "kitchen/textures/T_Refrigerator034_BC001_0.png": {
+      "file": "kitchen/textures/T_Refrigerator034_BC001_0.png",
+      "sha256": "ee79618affa38ad9eb3d248b69ee2eb8dd19a4f3b8a4648d5d6a1238eda714a0"
+    },
+    "kitchen/textures/T_Refrigerator034_ORM001_0.png": {
+      "file": "kitchen/textures/T_Refrigerator034_ORM001_0.png",
+      "sha256": "90a50e37254f6525a6d04ddd6e764e1e6cc77b83c9570b18f9768d6c347f7b97"
+    },
+    "kitchen/textures/T_Sink002_BC001_0.png": {
+      "file": "kitchen/textures/T_Sink002_BC001_0.png",
+      "sha256": "01d6c09e7dd2daa88c807a3c06b3e0072444e3f87279f0d65183b8af7caefb26"
+    },
+    "kitchen/textures/T_Sink002_ORM001_0.png": {
+      "file": "kitchen/textures/T_Sink002_ORM001_0.png",
+      "sha256": "957f54dfad765f4bae580937d9e2c6e495ffb39c3e2ca10004eeef022261e76b"
+    },
+    "kitchen/textures/T_Socket007_BC001_0.png": {
+      "file": "kitchen/textures/T_Socket007_BC001_0.png",
+      "sha256": "3f99473beecdebf27b4e6e2aa396d5a10a82993d72b786705bfa1951ba138a8f"
+    },
+    "kitchen/textures/T_Socket007_N001_0.png": {
+      "file": "kitchen/textures/T_Socket007_N001_0.png",
+      "sha256": "9d59440fe45b8cd7a8c70344bfe5ff7cc115dd5abace2bf7765d2754687a921c"
+    },
+    "kitchen/textures/T_Socket007_ORM001_0.png": {
+      "file": "kitchen/textures/T_Socket007_ORM001_0.png",
+      "sha256": "4f4abb894e5c86cc4caf59a12b7d92ff5b80073e6eea2cfec4ca900a028d880a"
+    },
+    "kitchen/textures/T_StandMixer004_BC001_0.png": {
+      "file": "kitchen/textures/T_StandMixer004_BC001_0.png",
+      "sha256": "2cfafe5b98c2460d6cb5d6e6a109559ab224eebcd8ca1a5c1478826ce9cb3047"
+    },
+    "kitchen/textures/T_StandMixer004_N001_0.png": {
+      "file": "kitchen/textures/T_StandMixer004_N001_0.png",
+      "sha256": "fe7d530dcef44fc4e06f6d6d78bcff2da66f629c86a047ac1947dcbeb9c3067d"
+    },
+    "kitchen/textures/T_StandMixer004_ORM001_0.png": {
+      "file": "kitchen/textures/T_StandMixer004_ORM001_0.png",
+      "sha256": "77175213c6594114594dde89c9bfc898a2743b834ee48389d3e8c56fb11c7f68"
+    },
+    "kitchen/textures/T_Stove002_BC001_0.png": {
+      "file": "kitchen/textures/T_Stove002_BC001_0.png",
+      "sha256": "226cf76e26ba340de059707d5b5b30277911bf4a7f2b6de30b2ff267b7c04b67"
+    },
+    "kitchen/textures/T_Stove002_ORM001_0.png": {
+      "file": "kitchen/textures/T_Stove002_ORM001_0.png",
+      "sha256": "6c1e9c6ec9a5c7ef10faa53ba78d7fca55c3e58e2bfc969d91af2728b7faca29"
+    },
+    "kitchen/textures/T_Switch036_BC001_0.png": {
+      "file": "kitchen/textures/T_Switch036_BC001_0.png",
+      "sha256": "eaf69d92d35d1a67a071adf42bda132b169e28e4f14a1fc1568376d210de50c5"
+    },
+    "kitchen/textures/T_Switch036_N001_0.png": {
+      "file": "kitchen/textures/T_Switch036_N001_0.png",
+      "sha256": "9d59440fe45b8cd7a8c70344bfe5ff7cc115dd5abace2bf7765d2754687a921c"
+    },
+    "kitchen/textures/T_Switch036_ORM001_0.png": {
+      "file": "kitchen/textures/T_Switch036_ORM001_0.png",
+      "sha256": "aba04f8c2694a0e67a4ff2c96af9c960adf390fa2e7ec8197f42465731c01139"
+    },
+    "kitchen/textures/T_Toaster052_BC001_0.png": {
+      "file": "kitchen/textures/T_Toaster052_BC001_0.png",
+      "sha256": "b952c8a64d133e219ee068330331bbed1ac886bdc2b0abae76c99f90817c4c21"
+    },
+    "kitchen/textures/T_Toaster052_N001_0.png": {
+      "file": "kitchen/textures/T_Toaster052_N001_0.png",
+      "sha256": "742bc21bf7b4fcaec7a7670466a6aa91e6d2910cd2b2449fd1155b958249824e"
+    },
+    "kitchen/textures/T_Toaster052_ORM001_0.png": {
+      "file": "kitchen/textures/T_Toaster052_ORM001_0.png",
+      "sha256": "f106e3c0bd7604d9bb4b6efe860ec0c1168b7633e8769b2872b8469f805fabe1"
+    },
+    "kitchen/textures/T_ToasterOven002_BC001_0.png": {
+      "file": "kitchen/textures/T_ToasterOven002_BC001_0.png",
+      "sha256": "a2d84391dcf57b11c580bb33e4bfd8f41ab593121c353c79b9bad195b0146ec8"
+    },
+    "kitchen/textures/T_ToasterOven002_ORM001_0.png": {
+      "file": "kitchen/textures/T_ToasterOven002_ORM001_0.png",
+      "sha256": "d94532c42140e4880982e06712b1c82afe7d6d5d6c107dad97771d71cb3775f7"
+    },
+    "kitchen/textures/gray_wood_grain_0.png": {
+      "file": "kitchen/textures/gray_wood_grain_0.png",
+      "sha256": "62efa660eb1014116f11939a6574e8de60634a1986c3493f37d6e1a438e39109"
+    },
+    "kitchen/textures/gray_wood_planks_0.png": {
+      "file": "kitchen/textures/gray_wood_planks_0.png",
+      "sha256": "7d3b3e0a7a970c698a742452fb3c0666a5b4e7ad324749a629b5acffd8f8dd7a"
+    },
+    "kitchen/textures/light_gray_0.png": {
+      "file": "kitchen/textures/light_gray_0.png",
+      "sha256": "ca6de55ddc7a3187825454839e477d783ace86ec964ebc8db84d7e425f955638"
+    },
+    "kitchen/textures/marble_3_0.png": {
+      "file": "kitchen/textures/marble_3_0.png",
+      "sha256": "730a0296b8707933a70b4d0b2e76e3a40588d19d086e5705dc401b019201a9b7"
+    },
+    "kitchen/textures/warm_white_0.png": {
+      "file": "kitchen/textures/warm_white_0.png",
+      "sha256": "04d4eda3764b34c48340feb785d38271eb6a30f144821bb0fbd0a14b2d648555"
+    },
+    "kitchen/textures/white_bricks_2_0.png": {
+      "file": "kitchen/textures/white_bricks_2_0.png",
+      "sha256": "e472ee2a5898345e0a3de45e3e12cba9aa6a672186b34767c0881c8703ba048c"
+    }
+  },
+  "roots": {
+    "bottle": "omniverse-content-staging.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/IsaacLab/Arena/assets/object_library/srl_robolab_assets/objects/hope/ranch_dressing.usd",
+    "kitchen": "kitchen/scene.usd",
+    "robot": "omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FourierIntelligence/GR-1/GR1T2_fourier_hand_6dof/GR1T2_fourier_hand_6dof.usd"
+  },
+  "schema_version": 1
+}
