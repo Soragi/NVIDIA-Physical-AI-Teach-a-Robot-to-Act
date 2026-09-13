@@ -14,3 +14,11 @@ For a release candidate, run the complete Start Here notebook in a newly prepare
 - only port 7777 is exposed through the authenticated Brev Secure Link.
 
 Generated reports remain ignored because they contain machine paths, run identifiers and operational logs. Publish only an intentionally sanitized aggregate such as this document.
+
+## Deployment repair validation
+
+A prepared two-GPU Brev VM was repaired and tested with the current notebook. The gateway was reachable on both loopback and the VM network address; its HTML, CSS, JavaScript and proxied training API returned HTTP 200. A read-only Chrome check connected successfully at desktop and mobile sizes, with no JavaScript errors or horizontal mobile overflow. Backend services remained on loopback.
+
+The recorded seed-3 baseline failed. Continuing its early checkpoint for 2,000 optimizer updates took 511.68 seconds and verified changed weights. The live retest succeeded in 339 control steps, using the same recorded initial state and equal 500-step allowance. Cosmos and VSS evidence were present for both evaluations, without an evidence error. GPU resources were released and Nemotron restored afterward. All 33 source regression tests passed on the VM.
+
+This validates the repaired deployed workflow and cached setup checks. It is not a new blank-VM installation test; a separate cold provisioning run remains necessary before claiming complete fresh-image reproducibility.
