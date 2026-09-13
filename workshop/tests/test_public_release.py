@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 import tempfile
+import subprocess
 import unittest
 
 
@@ -19,8 +20,11 @@ class PublicReleaseTests(unittest.TestCase):
             b"/Users/" + b"isoltysik",
             b"/home/ubuntu/" + b"vss-robotics-workshop",
         )
-        for path in ROOT.rglob("*"):
-            if not path.is_file() or ".git" in path.parts or "__pycache__" in path.parts:
+        # Scan only the published source, never downloaded models, videos or caches.
+        tracked = subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode().split('\0')
+        for name in filter(None,tracked):
+            path = ROOT/name
+            if not path.is_file():
                 continue
             value = path.read_bytes()
             for marker in forbidden:
