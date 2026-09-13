@@ -1,4 +1,4 @@
-# NVIDIA Physical AI Masterclass: Teach a Robot to Act
+# Physical AI Masterclass: Teach a Robot to Act
 
 A 90-minute developer lab that performs real GR00T fine-tuning and tests the new checkpoint in Isaac Sim. The robot must place a bottle in a refrigerator and close the door. Attendees test an early policy, inspect NVIDIA demonstrations, update model weights, retest the same scene and export the measured evidence.
 
