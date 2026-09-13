@@ -1,4 +1,6 @@
 from pathlib import Path
+import json
+import tempfile
 import unittest
 
 
@@ -38,6 +40,17 @@ class PublicReleaseTests(unittest.TestCase):
         for name in ("validate_isaac_baseline.py", "isaac_worker.py", "evaluate_training.py"):
             source = (ROOT / "workshop/scripts" / name).read_text()
             self.assertIn("MPLBACKEND='Agg'", source, name)
+
+    def test_baseline_evidence_requires_three_boolean_outcomes(self):
+        from workshop.scripts.validate_isaac_baseline import complete_evidence
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            report=root/'run/episode_results_rank0.jsonl'
+            report.parent.mkdir()
+            report.write_text('\n'.join(json.dumps({'success':value}) for value in (True,False)))
+            self.assertEqual(complete_evidence(root),[])
+            report.write_text('\n'.join(json.dumps({'success':value}) for value in (True,False,True)))
+            self.assertEqual(len(complete_evidence(root)),1)
 
 
 if __name__ == "__main__":
