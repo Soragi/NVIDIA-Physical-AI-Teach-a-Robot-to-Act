@@ -371,13 +371,32 @@ prepare_workshop_data() {
 }
 
 pull_images_to_log() {
+  local image attempt pulled
+  local -a images=()
   note "Downloading VSS container images. The detailed layer progress is recorded in ${DEPLOY_LOG}."
   note "This can take several minutes; open a terminal and run 'tail -f ${DEPLOY_LOG}' only if you want the live pull detail."
-  if ! compose pull >>"$DEPLOY_LOG" 2>&1; then
-    note "Image download failed. Details are in the private deployment log."
-    note "Inspect the private deployment log on this instance for diagnostics."
-    die "Unable to download one or more VSS container images."
-  fi
+  # NVCR occasionally returns a truncated HTTP 200 response from proxy_auth.
+  # Docker reports that as "unexpected EOF" and does not retry the token
+  # exchange. Pull images sequentially and retry each image so completed
+  # layers remain cached and a transient registry response does not abort the
+  # entire fresh-VM deployment.
+  mapfile -t images < <(compose config --images | sort -u)
+  (( ${#images[@]} > 0 )) || die "The Compose graph did not declare any images."
+  for image in "${images[@]}"; do
+    pulled=0
+    for attempt in 1 2 3 4 5 6; do
+      if docker pull "$image" >>"$DEPLOY_LOG" 2>&1; then
+        pulled=1
+        break
+      fi
+      note "Image pull attempt ${attempt}/6 failed for ${image}; retrying without discarding cached layers."
+      sleep $((attempt * 5))
+    done
+    if (( pulled == 0 )); then
+      note "Image download failed after six attempts. Details are in the private deployment log."
+      die "Unable to download ${image}."
+    fi
+  done
   note "Container images are ready. Starting Base services."
 }
 

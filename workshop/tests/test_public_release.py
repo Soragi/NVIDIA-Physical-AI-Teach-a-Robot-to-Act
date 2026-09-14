@@ -45,6 +45,12 @@ class PublicReleaseTests(unittest.TestCase):
             source = (ROOT / "workshop/scripts" / name).read_text()
             self.assertIn("MPLBACKEND='Agg'", source, name)
 
+    def test_fresh_deployment_retries_transient_registry_token_failures(self):
+        source = (ROOT / "workshop/scripts/deploy_vss_base.sh").read_text()
+        self.assertIn("compose config --images | sort -u", source)
+        self.assertIn('for attempt in 1 2 3 4 5 6', source)
+        self.assertIn('docker pull "$image"', source)
+
     def test_baseline_evidence_requires_three_boolean_outcomes(self):
         from workshop.scripts.validate_isaac_baseline import complete_evidence
         with tempfile.TemporaryDirectory() as tmp:
