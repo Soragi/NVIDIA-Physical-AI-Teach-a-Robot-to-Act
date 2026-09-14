@@ -383,6 +383,10 @@ pull_images_to_log() {
   mapfile -t images < <(compose config --images | sort -u)
   (( ${#images[@]} > 0 )) || die "The Compose graph did not declare any images."
   for image in "${images[@]}"; do
+    if docker image inspect "$image" >/dev/null 2>&1; then
+      note "Using cached image ${image}."
+      continue
+    fi
     pulled=0
     for attempt in 1 2 3 4 5 6; do
       if docker pull "$image" >>"$DEPLOY_LOG" 2>&1; then

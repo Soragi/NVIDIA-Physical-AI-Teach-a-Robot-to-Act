@@ -53,3 +53,5 @@ The repository contains no model weights, demonstrations, generated videos, cred
 On a fresh VM, run Setup A–I once before starting the learning exercise. Setup G checks both the port-7777 UI and its proxied mission API. Create a Brev Secure Link targeting port 7777 on this instance. The gateway listens on the VM network so Brev can connect; all backend ports remain on loopback. A 503 connection-refused error from Brev means the gateway address/port or service must be checked.
 
 For an already prepared VM, set `RUN_SETUP=False`. To rerun deployment, wait for any active operation to finish. Setup releases an idle GPU reservation while preserving its recorded experiment. Saved private credentials and complete cached inputs are reused. Notebook API errors explain conflicts; do not repeat completed training in the same experiment.
+
+Setup D reuses locally cached container images and pulls missing images sequentially with up to six attempts per image. This handles the observed intermittent NVCR token-response failures without restarting the whole notebook. See [VALIDATION.md](VALIDATION.md) for the completed fresh-VM notebook run and its deployment boundaries.
